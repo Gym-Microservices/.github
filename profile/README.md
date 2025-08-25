@@ -11,6 +11,14 @@ Este proyecto implementa una arquitectura de microservicios para la gestión int
 > - Juan Felipe Plaza - A00365963
 > - Brian Matasca A00378
 
+## 🏛️ Diagrama de Componentes
+
+El siguiente diagrama ilustra la arquitectura completa del sistema de microservicios del gimnasio, mostrando las relaciones entre componentes, contenedores de ejecución y flujos de comunicación:
+
+![Diagrama de Componentes](../images/Gym%20Microservices%20-%20Components%20Diagram.png)
+
+_Diagrama que muestra la interacción entre clientes (web/mobile), API Gateway, servidor de descubrimiento Eureka, y los microservicios de dominio (member, coach, equipment, class) con sus respectivas bases de datos H2._
+
 ## 🏗️ Arquitectura del Sistema
 
 ### Componentes Principales
