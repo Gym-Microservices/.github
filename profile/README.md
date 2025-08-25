@@ -4,6 +4,13 @@
 
 Este proyecto implementa una arquitectura de microservicios para la gestión integral de un gimnasio, diseñada para proporcionar escalabilidad, mantenibilidad y flexibilidad en el desarrollo de aplicaciones empresariales.
 
+## Autores ✒️
+
+> - Juan David Colonia Aldana - A00395956
+> - Miguel Angel Gonzalez Arango - A00395687
+> - Juan Felipe Plaza - A00365963
+> - Brian Matasca A00378
+
 ## 🏗️ Arquitectura del Sistema
 
 ### Componentes Principales
@@ -53,7 +60,7 @@ Este proyecto implementa una arquitectura de microservicios para la gestión int
 
 ## 🐳 Herramientas
 
-### Docker Compose
+### Docker
 
 - **Propósito**: Orquestación de todos los servicios
 - **Red**: `gym-network` (bridge)
@@ -75,7 +82,7 @@ Cliente → API Gateway → Eureka Server → Microservicio Específico
 ## 📁 Estructura
 
 ```
-Taller Gym/
+Gym-Microservices/
 ├── .github/                    # Configuración de GitHub
 ├── eureka-server/             # Servidor de descubrimiento
 ├── gateway/                   # API Gateway
@@ -94,5 +101,3 @@ Taller Gym/
 - **Tecnología Flexible**: Posibilidad de usar diferentes tecnologías por servicio
 - **Escalado Selectivo**: Escalar solo los servicios que requieren más recursos
 - **Mantenimiento Simplificado**: Cambios localizados en servicios específicos
-
----
