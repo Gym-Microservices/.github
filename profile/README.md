@@ -9,7 +9,7 @@ Este proyecto implementa una arquitectura de microservicios para la gestión int
 > - Juan David Colonia Aldana - A00395956
 > - Miguel Angel Gonzalez Arango - A00395687
 > - Juan Felipe Plaza - A00365963
-> - Brian Matasca A00378
+> - Brian Matasca A00378054
 
 ## 🏛️ Diagrama de Componentes
 
